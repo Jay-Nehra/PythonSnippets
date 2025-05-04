@@ -1,0 +1,3 @@
+This is the first line written in the file. 
+ This is the second line written in teh file.this is the redirection from the print statement.
+this is the second redirection from the print statement. 
