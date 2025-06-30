@@ -1,0 +1,7 @@
+attrs>=25.3.0
+faker>=37.4.0
+ipykernel>=6.29.5
+matplotlib>=3.10.3
+pandas>=2.3.0
+polars>=1.30.0
+seaborn>=0.13.2

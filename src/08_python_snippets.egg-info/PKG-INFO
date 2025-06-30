@@ -1,0 +1,33 @@
+Metadata-Version: 2.4
+Name: 08-python-snippets
+Version: 0.1.0
+Summary: Useful Python Snippets
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: attrs>=25.3.0
+Requires-Dist: faker>=37.4.0
+Requires-Dist: ipykernel>=6.29.5
+Requires-Dist: matplotlib>=3.10.3
+Requires-Dist: pandas>=2.3.0
+Requires-Dist: polars>=1.30.0
+Requires-Dist: seaborn>=0.13.2
+
+# Python Snippets Collection
+
+A curated collection of practical Python code snippets organized by functionality. This repository serves as a cookbook of reusable Python code patterns and utilities.
+
+## Usage
+
+Each directory contains standalone Python snippets that can be copied and used in your projects. Every snippet includes:
+- Clear documentation
+- Usage examples
+- Required dependencies (if any)
+- Expected input/output
+
+## License
+
+MIT License - feel free to use in your projects
+
+## Contact
+
+Feel free to open issues for suggestions or questions.

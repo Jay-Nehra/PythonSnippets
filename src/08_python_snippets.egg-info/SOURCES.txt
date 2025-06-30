@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/08_python_snippets.egg-info/PKG-INFO
+src/08_python_snippets.egg-info/SOURCES.txt
+src/08_python_snippets.egg-info/dependency_links.txt
+src/08_python_snippets.egg-info/entry_points.txt
+src/08_python_snippets.egg-info/requires.txt
+src/08_python_snippets.egg-info/top_level.txt
+src/decocrators/__init__.py
+src/name_standardization/__init__.py
+src/name_standardization/name_standardization.py

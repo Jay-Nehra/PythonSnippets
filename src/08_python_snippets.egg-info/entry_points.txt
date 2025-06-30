@@ -1,0 +1,2 @@
+[console_scripts]
+standardize-names = name_standardization.name_standardization:main

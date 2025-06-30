@@ -1,10 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "08-python-snippets"
 version = "0.1.0"
-description = "Add your description here"
+description = "Useful Python Snippets"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
     "attrs>=25.3.0",
+    "faker>=37.4.0",
     "ipykernel>=6.29.5",
+    "matplotlib>=3.10.3",
+    "pandas>=2.3.0",
+    "polars>=1.30.0",
+    "seaborn>=0.13.2",
 ]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["decocrators", "name_standardization"]
+
+[tool.uv]
+package = true
+
+[project.scripts]
+standardize-names = "name_standardization.name_standardization:main"
